@@ -1,0 +1,11 @@
+MODE (Enum ?) :
+    Sniper
+    TimeSurvival
+    OnlyRocket
+
+Extras :
+World transformation
+
+
+IA
+Menu Background
