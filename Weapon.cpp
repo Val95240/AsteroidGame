@@ -34,14 +34,14 @@ bool Weapon::updateHits(std::list<SpaceShip*>& ships)
                     points = 100;
                 }
                 originShip->addScore((ship->getTeam() != originShip->getTeam() ? points : -points));
-                
+
                 if (hit(1))
                     return true;
             }
         }
     }
     return false;
-} 
+}
 
 bool Weapon::updateHits(std::list<Asteroid*>& asteroids)
 {
@@ -49,7 +49,7 @@ bool Weapon::updateHits(std::list<Asteroid*>& asteroids)
     {
         Asteroid* ast = *it;
         if (Hitbox::intersects(this, ast)) {
-            if (ast->hit(this->getDamage())) { 
+            if (ast->hit(this->getDamage())) {
                 delete ast;
                 it = asteroids.erase(it);
                 --it;
@@ -57,10 +57,10 @@ bool Weapon::updateHits(std::list<Asteroid*>& asteroids)
             } else {
                 originShip->addScore(50);
             }
-            
+
             if (hit(1))
                 return true;
         }
     }
     return false;
-} 
+}

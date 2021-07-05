@@ -79,7 +79,7 @@ Menu* Menu::press(sf::Keyboard::Key key)
         default:
             break;
     }
-    
+
     if (nextMenu != this) {
         activeItem = 0;
         for (MenuItem* item : items)

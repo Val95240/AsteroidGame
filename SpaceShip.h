@@ -77,7 +77,7 @@ class SpaceShip : public FlyingObject
 
          std::list<Weapon*> weapons;
          void fire(int type);
-         
+
          virtual void draw(sf::RenderTarget& target, sf::RenderStates states) const;
 };
 

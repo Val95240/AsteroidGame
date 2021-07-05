@@ -56,7 +56,7 @@ World::~World()
 {
     for (SpaceShip* ship : ships)
         delete ship;
-    
+
     for (Asteroid* ast : asteroids)
         delete ast;
 }

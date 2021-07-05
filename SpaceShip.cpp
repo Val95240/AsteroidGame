@@ -113,7 +113,7 @@ bool SpaceShip::hit(int damage)
 {
     if (berserk)
         return false;
-    
+
     if (damage < shieldLife) {
         shieldLife -= damage;
         damage = 0;
@@ -166,7 +166,7 @@ void SpaceShip::update()
         if (!weapon->valid()) {
             --nbWeapon[weapon->getType()];
             delete weapon;
-            it = weapons.erase(it); 
+            it = weapons.erase(it);
         } else {
             ++it;
         }
@@ -288,7 +288,7 @@ void SpaceShip::fire(int type)
                 newWeapon = new Bullet(this, x, y, angle, bulletSpeedX, bulletSpeedY);
                 break;
             }
-            
+
             case 1:
                 newWeapon = new Rocket(this, x, y, angle, relativeShipSpeedX, relativeShipSpeedY);
                 break;

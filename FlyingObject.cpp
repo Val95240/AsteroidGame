@@ -9,7 +9,7 @@ FlyingObject::FlyingObject(int life, int padding, sf::Color color) :
     lifeOutline.setOutlineColor(color);
     lifeOutline.setOutlineThickness(1);
     lifeOutline.setOrigin(10, -30);
-    
+
     lifeBar.setSize(sf::Vector2f(20, 5));
     lifeBar.setOrigin(10, -30);
 }

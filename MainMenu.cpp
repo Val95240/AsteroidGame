@@ -37,7 +37,7 @@ MainMenu::MainMenu()
                                                                     {&settings::TEAMS[3], 3}}));
     fourPlayers->addItem("2 VS 1 VS 1", optionsMenu, GameMode({{&settings::TEAMS[1], 0}, {&settings::TEAMS[2], 1},
                                                                {&settings::TEAMS[3], 2}}));
-    fourPlayers->addItem("2 VS 2", optionsMenu, GameMode({{&settings::TEAMS[1], 0}, {&settings::TEAMS[2], 1}, 
+    fourPlayers->addItem("2 VS 2", optionsMenu, GameMode({{&settings::TEAMS[1], 0}, {&settings::TEAMS[2], 1},
                                                           {&settings::TEAMS[3], 1}}));
     fourPlayers->addItem("3 VS 1", optionsMenu, GameMode({{&settings::TEAMS[1], 0}, {&settings::TEAMS[2], 0},
                                                           {&settings::TEAMS[3], 1}}));
@@ -56,7 +56,7 @@ MainMenu::MainMenu()
     settingsMenu->addItemSetting("Friendly fire", mainMenu, &settings::FRIENDLY_FIRE);
     settingsMenu->addItemSetting("Hitbox", mainMenu, &settings::HITBOX);
     settingsMenu->addItem("Save & Exit", mainMenu);
-    
+
     for (int i=0; i<4; ++i)
     {
         bindMenu->addItem("Player " + std::to_string(i+1), bindPlayerMenus[i]);

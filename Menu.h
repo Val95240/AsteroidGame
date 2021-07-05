@@ -18,7 +18,7 @@ class Menu : public sf::Drawable
         void addItem(std::string name, Menu* nextMenu, GameMode mode=GameMode({}));
         void addItemSetting(std::string name, Menu* nextMenu, int* setting, std::vector<int> values={0,1});
         void addItemKeybind(std::string name, int* setting);
-        
+
         Menu* press(sf::Keyboard::Key);
         void bind();
 
