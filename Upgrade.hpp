@@ -2,10 +2,10 @@
 #define HEADER_UPGRADES
 
 #include <SFML/Graphics.hpp>
-#include "Settings.h"
-#include "shapes.h"
-#include "Hitbox.h"
-#include "SpaceShip.h"
+#include "Settings.hpp"
+#include "shapes.hpp"
+#include "Hitbox.hpp"
+#include "SpaceShip.hpp"
 
 
 class Upgrade : public Hitbox

@@ -2,8 +2,8 @@
 #define HEADER_SHAPES
 
 #include <SFML/Graphics.hpp>
-#include "Settings.h"
-#include "utils.h"
+#include "Settings.hpp"
+#include "utils.hpp"
 
 
 sf::ConvexShape generateShipShape();

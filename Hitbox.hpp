@@ -5,7 +5,7 @@
 #include <vector>
 
 #include <SFML/Graphics.hpp>
-#include "utils.h"
+#include "utils.hpp"
 
 
 class Hitbox : public sf::Drawable, public sf::Transformable

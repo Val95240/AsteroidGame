@@ -1,4 +1,4 @@
-#include "utils.h"
+#include "utils.hpp"
 
 double fRand(double fMin, double fMax)
 {

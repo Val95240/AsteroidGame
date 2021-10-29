@@ -7,16 +7,16 @@
 #include <algorithm>
 
 #include <SFML/Graphics.hpp>
-#include "Settings.h"
-#include "utils.h"
-#include "shapes.h"
-#include "GamePhase.h"
-#include "MainMenu.h"
-#include "Menu.h"
-#include "ScoreMenu.h"
-#include "SpaceShip.h"
-#include "Asteroid.h"
-#include "Upgrade.h"
+#include "Settings.hpp"
+#include "utils.hpp"
+#include "shapes.hpp"
+#include "GamePhase.hpp"
+#include "MainMenu.hpp"
+#include "Menu.hpp"
+#include "ScoreMenu.hpp"
+#include "SpaceShip.hpp"
+#include "Asteroid.hpp"
+#include "Upgrade.hpp"
 
 
 class World : public GamePhase

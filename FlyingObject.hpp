@@ -6,9 +6,9 @@
 #include <algorithm>
 
 #include <SFML/Graphics.hpp>
-#include "Settings.h"
-#include "utils.h"
-#include "Hitbox.h"
+#include "Settings.hpp"
+#include "utils.hpp"
+#include "Hitbox.hpp"
 
 
 class FlyingObject : public Hitbox

@@ -2,14 +2,14 @@
 #define HEADER_SPACESHIP
 
 #include <SFML/Graphics.hpp>
-#include "Settings.h"
-#include "utils.h"
-#include "FlyingObject.h"
-#include "Asteroid.h"
-#include "Bullet.h"
-#include "Rocket.h"
-#include "Laser.h"
-#include "Bomb.h"
+#include "Settings.hpp"
+#include "utils.hpp"
+#include "FlyingObject.hpp"
+#include "Asteroid.hpp"
+#include "Bullet.hpp"
+#include "Rocket.hpp"
+#include "Laser.hpp"
+#include "Bomb.hpp"
 
 typedef sf::Keyboard::Key key;
 

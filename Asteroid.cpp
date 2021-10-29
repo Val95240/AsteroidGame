@@ -1,5 +1,5 @@
-#include "Asteroid.h"
-#include "World.h"
+#include "Asteroid.hpp"
+#include "World.hpp"
 
 Asteroid::Asteroid(World* world, int x, int y, int size) : FlyingObject(1, 10+20*size),
     world(world),  size(size)

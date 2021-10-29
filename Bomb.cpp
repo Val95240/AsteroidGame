@@ -1,4 +1,4 @@
-#include "Bomb.h"
+#include "Bomb.hpp"
 
 Bomb::Bomb(SpaceShip* originShip, int x, int y) :
     Weapon(originShip),

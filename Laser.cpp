@@ -1,4 +1,4 @@
-#include "Laser.h"
+#include "Laser.hpp"
 
 Laser::Laser(SpaceShip* originShip, int x, int y, double angle) :
     Weapon(originShip), turn(0)

@@ -4,9 +4,9 @@
 #include <list>
 
 #include <SFML/Graphics.hpp>
-#include "Settings.h"
-#include "Hitbox.h"
-#include "Asteroid.h"
+#include "Settings.hpp"
+#include "Hitbox.hpp"
+#include "Asteroid.hpp"
 
 class SpaceShip;
 

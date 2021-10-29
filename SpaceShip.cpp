@@ -1,4 +1,4 @@
-#include "SpaceShip.h"
+#include "SpaceShip.hpp"
 
 SpaceShip::SpaceShip(int id, int x, int y) : FlyingObject(settings::SHIP_LIFE, 40, settings::TEAM_COLORS[id]),
     team(settings::TEAMS[id]), score(0), shield(50, 100), shieldLife(0),

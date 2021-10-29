@@ -1,5 +1,5 @@
-#include "MenuItem.h"
-#include "Menu.h"
+#include "MenuItem.hpp"
+#include "Menu.hpp"
 
 MenuItem::MenuItem(std::string title, int posY, Menu* nextMenu, GameMode mode) : nextMenu(nextMenu), mode(mode)
 {

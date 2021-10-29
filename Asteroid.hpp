@@ -2,10 +2,10 @@
 #define HEADER_ASTEROID
 
 #include <SFML/Graphics.hpp>
-#include "Settings.h"
-#include "shapes.h"
-#include "utils.h"
-#include "FlyingObject.h"
+#include "Settings.hpp"
+#include "shapes.hpp"
+#include "utils.hpp"
+#include "FlyingObject.hpp"
 
 class World;
 

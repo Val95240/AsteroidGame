@@ -1,4 +1,4 @@
-#include "Bullet.h"
+#include "Bullet.hpp"
 
 Bullet::Bullet(SpaceShip* originShip, int x, int y, double angle, double speedX, double speedY) :
     Weapon(originShip),

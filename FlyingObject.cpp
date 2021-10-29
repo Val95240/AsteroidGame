@@ -1,4 +1,4 @@
-#include "FlyingObject.h"
+#include "FlyingObject.hpp"
 
 FlyingObject::FlyingObject(int life, int padding, sf::Color color) :
     speedX(0), speedY(0), angleSpeed(0),

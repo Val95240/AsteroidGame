@@ -2,7 +2,7 @@
 #define HEADER_GAMEPHASE
 
 #include <SFML/Graphics.hpp>
-#include "Settings.h"
+#include "Settings.hpp"
 
 
 class GamePhase : public sf::Drawable, public sf::Transformable

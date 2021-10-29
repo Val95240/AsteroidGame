@@ -5,8 +5,8 @@
 #include <vector>
 
 #include <SFML/Graphics.hpp>
-#include "utils.h"
-#include "MenuItem.h"
+#include "utils.hpp"
+#include "MenuItem.hpp"
 
 
 class Menu : public sf::Drawable

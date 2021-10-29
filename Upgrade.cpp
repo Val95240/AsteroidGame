@@ -1,4 +1,4 @@
-#include "Upgrade.h"
+#include "Upgrade.hpp"
 
 Upgrade::Upgrade(int type, int x, int y) : type(type)
 {

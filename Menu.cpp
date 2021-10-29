@@ -1,4 +1,4 @@
-#include "Menu.h"
+#include "Menu.hpp"
 
 Menu::Menu(std::string name, Menu* prevMenu) : posY(3*settings::HEIGHT/10), prevMenu(prevMenu), binding(false), activeItem(0)
 {

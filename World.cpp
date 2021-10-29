@@ -1,4 +1,4 @@
-#include "World.h"
+#include "World.hpp"
 
 World::World() : exit(false), pause(false), pauseMenu("Pause", nullptr), nbShip(0), asteroidCooldown(0), upgradeCooldown(0) //250)
 {

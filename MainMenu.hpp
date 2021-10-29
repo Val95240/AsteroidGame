@@ -5,11 +5,11 @@
 #include <vector>
 
 #include <SFML/Graphics.hpp>
-#include "Settings.h"
-#include "utils.h"
-#include "GamePhase.h"
-#include "World.h"
-#include "Menu.h"
+#include "Settings.hpp"
+#include "utils.hpp"
+#include "GamePhase.hpp"
+#include "World.hpp"
+#include "Menu.hpp"
 
 
 class MainMenu : public GamePhase

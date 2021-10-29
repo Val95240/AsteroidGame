@@ -1,4 +1,4 @@
-#include "GamePhase.h"
+#include "GamePhase.hpp"
 
 GamePhase::~GamePhase()
 {

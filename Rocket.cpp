@@ -1,4 +1,4 @@
-#include "Rocket.h"
+#include "Rocket.hpp"
 
 Rocket::Rocket(SpaceShip* originShip, int x, int y, double angle, double speedX, double speedY) :
     Weapon(originShip),

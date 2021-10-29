@@ -1,4 +1,4 @@
-#include "shapes.h"
+#include "shapes.hpp"
 
 sf::ConvexShape generateShipShape()
 {

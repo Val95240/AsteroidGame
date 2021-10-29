@@ -5,9 +5,9 @@
 #include <list>
 
 #include <SFML/Graphics.hpp>
-#include "shapes.h"
-#include "Weapon.h"
-#include "SpaceShip.h"
+#include "shapes.hpp"
+#include "Weapon.hpp"
+#include "SpaceShip.hpp"
 
 
 class Rocket : public Weapon

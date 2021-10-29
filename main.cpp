@@ -2,9 +2,9 @@
 #include <cstdlib>
 
 #include <SFML/Graphics.hpp>
-#include "Settings.h"
-#include "GamePhase.h"
-#include "MainMenu.h"
+#include "Settings.hpp"
+#include "GamePhase.hpp"
+#include "MainMenu.hpp"
 
 
 int main()

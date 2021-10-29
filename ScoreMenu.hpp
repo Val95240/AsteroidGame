@@ -4,10 +4,10 @@
 #include <cctype>
 
 #include <SFML/Graphics.hpp>
-#include "Settings.h"
-#include "utils.h"
-#include "GamePhase.h"
-#include "MainMenu.h"
+#include "Settings.hpp"
+#include "utils.hpp"
+#include "GamePhase.hpp"
+#include "MainMenu.hpp"
 
 
 class ScoreMenu : public GamePhase

@@ -2,8 +2,8 @@
 #define HEADER_LASER
 
 #include <SFML/Graphics.hpp>
-#include "shapes.h"
-#include "Weapon.h"
+#include "shapes.hpp"
+#include "Weapon.hpp"
 
 
 class Laser : public Weapon

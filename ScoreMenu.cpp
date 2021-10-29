@@ -1,4 +1,4 @@
-#include "ScoreMenu.h"
+#include "ScoreMenu.hpp"
 
 ScoreMenu::ScoreMenu(int score) : score(score), nextPhase(false)
 {

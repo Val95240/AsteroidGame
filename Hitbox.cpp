@@ -1,4 +1,4 @@
-#include "Hitbox.h"
+#include "Hitbox.hpp"
 
 /* Implementation of the SAT algorithm */
 bool Hitbox::intersects(Hitbox* obj1, Hitbox* obj2)

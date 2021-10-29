@@ -1,5 +1,5 @@
-#include "Weapon.h"
-#include "SpaceShip.h"
+#include "Weapon.hpp"
+#include "SpaceShip.hpp"
 
 Weapon::Weapon(SpaceShip* originShip) : originShip(originShip)
 {

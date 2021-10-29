@@ -11,7 +11,7 @@
 #include <exception>
 
 #include <SFML/Graphics.hpp>
-#include "Settings.h"
+#include "Settings.hpp"
 
 using vect_array =  std::vector<sf::Vector2f>;
 using Projection = std::pair<double, double>;

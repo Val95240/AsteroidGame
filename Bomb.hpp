@@ -5,7 +5,7 @@
 #include <list>
 #include <SFML/Graphics.hpp>
 
-#include "Weapon.h"
+#include "Weapon.hpp"
 
 
 class Bomb : public Weapon

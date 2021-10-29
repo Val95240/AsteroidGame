@@ -4,7 +4,7 @@
 #include <list>
 
 #include <SFML/Graphics.hpp>
-#include "Weapon.h"
+#include "Weapon.hpp"
 
 
 class Bullet : public Weapon

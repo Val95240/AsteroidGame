@@ -5,8 +5,8 @@
 #include <vector>
 
 #include <SFML/Graphics.hpp>
-#include "Settings.h"
-#include "utils.h"
+#include "Settings.hpp"
+#include "utils.hpp"
 
 
 class Menu;
