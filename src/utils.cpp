@@ -148,7 +148,7 @@ double randomLessProjections(std::vector<Projection>& projections)
 
 std::vector<std::pair<std::string, int>> readScores()
 {
-    std::ifstream file("scores", std::ios::in);
+    std::ifstream file("data/scores", std::ios::in);
     std::vector<std::pair<std::string, int>> scores;
 
     if (file) {
@@ -171,7 +171,7 @@ std::vector<std::pair<std::string, int>> readScores()
 
 void writeScores(std::vector<std::pair<std::string, int>> scores)
 {
-    std::ofstream file("scores", std::ios::trunc);
+    std::ofstream file("data/scores", std::ios::trunc);
 
     if (file)
     {

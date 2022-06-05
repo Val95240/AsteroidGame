@@ -116,6 +116,7 @@ void ScoreMenu::press(sf::Keyboard::Key key)
                 scores.pop_back();
             writeScores(scores);
             nextPhase = true;
+            [[fallthrough]];
         }
 
         case sf::Keyboard::Escape:

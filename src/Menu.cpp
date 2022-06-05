@@ -70,6 +70,7 @@ Menu* Menu::press(sf::Keyboard::Key key)
                 }
                 break;
             }
+            [[fallthrough]];
 
         case sf::Keyboard::Escape:
             if (prevMenu)
